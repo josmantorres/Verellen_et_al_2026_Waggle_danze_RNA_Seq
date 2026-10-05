@@ -57,18 +57,18 @@ Positive log2 fold changes indicate higher expression in the first group of each
 │   └── Deseq2_statistics_output_Nectar_vs_Control.txt   # DESeq2 analysis output from the Nectar vs Control (Non-followers) comparison
 │   └── Deseq2_statistics_output_Pollen_vs_Control.txt   # DESeq2 analysis output from the Pollen vs Control (Non-followers) comparison
 │   └── Deseq2_statistics_output_Pollen_vs_Nectar.txt   # DESeq2 analysis output from the Pollen vs Nectar comparison
-│   └── GO-term_enrichment_analysis_output_BP_FvsNF.txt   # GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_BP_NvsC.txt   # GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_BP_PvsC.txt   # GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_BP_PvsN.txt   # GO-term enrichment analysis output for biological process for Pollen vs Nectar
-│   └── GO-term_enrichment_analysis_output_MF_FvsNF.txt   # GO-term enrichment analysis output for molecular function for Follower vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_MF_NvsC.txt   # GO-term enrichment analysis output for molecular function for Nectar vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_MF_PvsC.txt   # GO-term enrichment analysis output for molecular function for Pollen vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_MF_PvsN.txt   # GO-term enrichment analysis output for molecular function for Pollen vs Nectar
-│   └── GO-term_enrichment_analysis_output_CC_FvsNF.txt   # GO-term enrichment analysis output for cellular component for Follower vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_CC_NvsC.txt   # GO-term enrichment analysis output for cellular component for Nectar vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_CC_PvsC.txt   # GO-term enrichment analysis output for cellular component for Pollen vs Control (Non-followers)
-│   └── GO-term_enrichment_analysis_output_CC_PvsN.txt   # GO-term enrichment analysis output for cellular component for Pollen vs Nectar
+│   └── GO_enrichment_BP_FvsNF.txt   # GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers)
+│   └── GO_enrichment_BP_NvsC.txt   # GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers)
+│   └── GO_enrichment__BP_PvsC.txt   # GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers)
+│   └── GO_enrichment__BP_PvsN.txt   # GO-term enrichment analysis output for biological process for Pollen vs Nectar
+│   └── GO_enrichment__MF_FvsNF.txt   # GO-term enrichment analysis output for molecular function for Follower vs Control (Non-followers)
+│   └── GO_enrichment_MF_NvsC.txt   # GO-term enrichment analysis output for molecular function for Nectar vs Control (Non-followers)
+│   └── GO_enrichment__MF_PvsC.txt   # GO-term enrichment analysis output for molecular function for Pollen vs Control (Non-followers)
+│   └── GO_enrichment__MF_PvsN.txt   # GO-term enrichment analysis output for molecular function for Pollen vs Nectar
+│   └── GO_enrichment__CC_FvsNF.txt   # GO-term enrichment analysis output for cellular component for Follower vs Control (Non-followers)
+│   └── GO_enrichment__CC_NvsC.txt   # GO-term enrichment analysis output for cellular component for Nectar vs Control (Non-followers)
+│   └── GO_enrichment__CC_PvsC.txt   # GO-term enrichment analysis output for cellular component for Pollen vs Control (Non-followers)
+│   └── GO_enrichment__CC_PvsN.txt   # GO-term enrichment analysis output for cellular component for Pollen vs Nectar
 │   └── Experimental_design.txt   # Samples and treatments information
 │   └── RLOG_Transformed_values.txt
 │   └── TPM_values.txt   # Transcripts per million values table
@@ -120,18 +120,18 @@ or open the script in RStudio (with the repository folder as working directory).
 
 | File | Description |
 |------|-------------|
-| `GO_enrichment_output_BP_FvsNF.txt` | GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers)
-| `GO_enrichment_output_BP_NvsC.txt` | GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers)
-| `GO_enrichment_output_BP_PvsC.txt` | GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers) |
-| `GO_enrichment_output_BP_PvsN.txt` | GO-term enrichment analysis output for biological process for Pollen vs Nectar |
-| `GO_enrichment_output_MF_FvsNF.txt` | GO-term enrichment analysis output for molecular function for Follower vs Control (Non-followers) |
-| `GO_enrichment_output_MF_NvsC.txt` | GO-term enrichment analysis output for molecular function for Nectar vs Control (Non-followers) |
-| `GO_enrichment_output_MF_PvsC.txt` | GO-term enrichment analysis output for molecular function for Pollen vs Control (Non-followers) |
-| `GO_enrichment_output_MF_PvsN.txt` | GO-term enrichment analysis output for molecular function for Pollen vs Nectar |
-| `GO_enrichment_output_CC_FvsNF.txt` | GO-term enrichment analysis output for cellular component for Follower vs Control (Non-followers) |
-| `GO_enrichment_output_CC_NvsC.txt` | GO-term enrichment analysis output for cellular component for Nectar vs Control (Non-followers) |
-| `GO_enrichment_output_CC_PvsC.txt` | GO-term enrichment analysis output for cellular component for Pollen vs Control (Non-followers) |
-| `GO_enrichment_output_CC_PvsN.txt` | GO-term enrichment analysis output for cellular component for Pollen vs Nectar |
+| `GO_enrichment_BP_FvsNF.txt` | GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers)
+| `GO_enrichment_BP_NvsC.txt` | GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers)
+| `GO_enrichment_BP_PvsC.txt` | GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers) |
+| `GO_enrichment_BP_PvsN.txt` | GO-term enrichment analysis output for biological process for Pollen vs Nectar |
+| `GO_enrichment_MF_FvsNF.txt` | GO-term enrichment analysis output for molecular function for Follower vs Control (Non-followers) |
+| `GO_enrichment_MF_NvsC.txt` | GO-term enrichment analysis output for molecular function for Nectar vs Control (Non-followers) |
+| `GO_enrichment_MF_PvsC.txt` | GO-term enrichment analysis output for molecular function for Pollen vs Control (Non-followers) |
+| `GO_enrichment_MF_PvsN.txt` | GO-term enrichment analysis output for molecular function for Pollen vs Nectar |
+| `GO_enrichment_CC_FvsNF.txt` | GO-term enrichment analysis output for cellular component for Follower vs Control (Non-followers) |
+| `GO_enrichment_CC_NvsC.txt` | GO-term enrichment analysis output for cellular component for Nectar vs Control (Non-followers) |
+| `GO_enrichment_CC_PvsC.txt` | GO-term enrichment analysis output for cellular component for Pollen vs Control (Non-followers) |
+| `GO_enrichment_CC_PvsN.txt` | GO-term enrichment analysis output for cellular component for Pollen vs Nectar |
 | `Experimental_design.txt` | Samples and treatments information |
 | `RLOG_Transformed_values.txt` | 
 | `TPM_values.txt` | Transcripts per million values table |
