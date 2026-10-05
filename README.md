@@ -142,8 +142,8 @@ or open the script in RStudio (with the repository folder as working directory).
 
 ## Data availability
 
-- Raw sequencing data: [repository and accession number, e.g., NCBI SRA/GEO: XXXX]
-- Count table used in this analysis: [included in `input/` / deposited at XXXX]
+- Raw sequencing data: [repository and accession number, e.g., NCBI SRA: SRR34735861; SRR34735864; SRR34735863; SRR34735862; SRR34735860;SRR34735865]
+- Count table used in this analysis: [included in `input/` ]
 
 ## Citation
 
