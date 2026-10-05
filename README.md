@@ -122,23 +122,35 @@ or open the script in RStudio (with the repository folder as working directory).
 |------|-------------|
 
 | `GO-term_enrichment_analysis_output_BP_FvsNF.txt` | GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers) |
-
 | `GO-term_enrichment_analysis_output_BP_NvsC.txt` | GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers) |
-
 | `GO-term_enrichment_analysis_output_BP_PvsC.txt` | GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers) |
+
 | `GO-term_enrichment_analysis_output_BP_PvsN.txt` | GO-term enrichment analysis output for biological process for Pollen vs Nectar |
+
 | `GO-term_enrichment_analysis_output_MF_FvsNF.txt` | GO-term enrichment analysis output for molecular function for Follower vs Control (Non-followers) |
+
 | `GO-term_enrichment_analysis_output_MF_NvsC.txt` | GO-term enrichment analysis output for molecular function for Nectar vs Control (Non-followers) |
+
 | `GO-term_enrichment_analysis_output_MF_PvsC.txt` | GO-term enrichment analysis output for molecular function for Pollen vs Control (Non-followers) |
+
 | `GO-term_enrichment_analysis_output_MF_PvsN.txt` | GO-term enrichment analysis output for molecular function for Pollen vs Nectar |
+
 | `GO-term_enrichment_analysis_output_CC_FvsNF.txt` | GO-term enrichment analysis output for cellular component for Follower vs Control (Non-followers) |
+
 | `GO-term_enrichment_analysis_output_CC_NvsC.txt` | GO-term enrichment analysis output for cellular component for Nectar vs Control (Non-followers) |
+
 | `GO-term_enrichment_analysis_output_CC_PvsC.txt` | GO-term enrichment analysis output for cellular component for Pollen vs Control (Non-followers) |
+
 | `GO-term_enrichment_analysis_output_CC_PvsN.txt` | GO-term enrichment analysis output for cellular component for Pollen vs Nectar |
+
 | `Experimental_design.txt` | Samples and treatments information |
+
 | `RLOG_Transformed_values.txt` | 
+
 | `TPM_values.txt` | Transcripts per million values table |
+
 | `Experimental_design.txt` | Samples and treatments information |
+
 
 `<comparison>` is one of `Followers_vs_Control`, `Nectar_vs_Control`, `Pollen_vs_Control` and `Pollen_vs_Nectar`.
 
