@@ -1,0 +1,2 @@
+The raw sequence dataset is available in the NCBI BioProject database with the accession number PRJNA1188565.
+
