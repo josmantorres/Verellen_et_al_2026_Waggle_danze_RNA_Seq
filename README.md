@@ -121,8 +121,8 @@ or open the script in RStudio (with the repository folder as working directory).
 | File | Description |
 |------|-------------|
 
-| `GO-term_enrichment_analysis_output_BP_FvsNF.txt` | GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers) |
-| `GO-term_enrichment_analysis_output_BP_NvsC.txt` | GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers) |
+`GO-term_enrichment_analysis_output_BP_FvsNF.txt` | GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers)
+`GO-term_enrichment_analysis_output_BP_NvsC.txt` | GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers)
 | `GO-term_enrichment_analysis_output_BP_PvsC.txt` | GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers) |
 | `GO-term_enrichment_analysis_output_BP_PvsN.txt` | GO-term enrichment analysis output for biological process for Pollen vs Nectar |
 | `GO-term_enrichment_analysis_output_MF_FvsNF.txt` | GO-term enrichment analysis output for molecular function for Follower vs Control (Non-followers) |
