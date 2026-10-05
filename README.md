@@ -1,6 +1,6 @@
 # Differential expression in honey bee dance followers
 
-R code used for the differential expression analysis in the manuscript:
+This repository contains the code used for trimming and mapping/count reads, the read counts matrix, the experimental design information, the R code used for the differential expression and GO-enrichment analyses and the output files, Rlog-transformed values, and TPM tables in the manuscript:
 
 > [Full citation of the manuscript: authors, title, journal, year, DOI]
 
