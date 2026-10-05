@@ -1,6 +1,6 @@
 # Differential expression in honey bee dance followers
 
-This repository contains the code used for trimming and mapping/count reads, the read counts matrix, the experimental design information, the R code used for the differential expression and GO-enrichment analyses and the output files, Rlog-transformed values, and TPM tables in the manuscript:
+This repository contains the code used for trimming and mapping/counting reads, the read counts matrix, the experimental design information, the R code used for the differential expression and GO-enrichment analyses and the output files, Rlog-transformed values, and TPM tables in the manuscript:
 
 > [Full citation of the manuscript: authors, title, journal, year, DOI]
 
@@ -50,14 +50,29 @@ Positive log2 fold changes indicate higher expression in the first group of each
 │   └── 01_GO_enrichment_analysis_dance_followers.R   # Code used for GO enrichment analysis with ermineR
 ├── input/                     # input files (see below)
 │   └── Raw reads count matrix.txt
-│   └── Experimental_design.txt 
+│   └── Experimental_design.txt
+│   └── Raw_reads_info.txt   # BioProject code  
 ├── output/                    # created when the script is run
 │   └── Deseq2_statistics_output_Followers_vs_Control.txt   # DESeq2 analysis output from the Followers vs Non-followers (Control) comparison
-│   └── Deseq2_statistics_output_Nectar_vs_Control.txt   # DESeq2 analysis output from the Nectar vs Non-followers (Control) comparison
-│   └── Deseq2_statistics_output_Pollen_vs_Control.txt   # DESeq2 analysis output from the Pollen vs Non-followers (Control) comparison
+│   └── Deseq2_statistics_output_Nectar_vs_Control.txt   # DESeq2 analysis output from the Nectar vs Control (Non-followers) comparison
+│   └── Deseq2_statistics_output_Pollen_vs_Control.txt   # DESeq2 analysis output from the Pollen vs Control (Non-followers) comparison
 │   └── Deseq2_statistics_output_Pollen_vs_Nectar.txt   # DESeq2 analysis output from the Pollen vs Nectar comparison
+│   └── GO-term_enrichment_analysis_output_BP_FvsNF.txt   # GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_BP_NvsC.txt   # GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_BP_PvsC.txt   # GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_BP_PvsN.txt   # GO-term enrichment analysis output for biological process for Pollen vs Nectar
+│   └── GO-term_enrichment_analysis_output_MF_FvsNF.txt   # GO-term enrichment analysis output for molecular function for Follower vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_MF_NvsC.txt   # GO-term enrichment analysis output for molecular function for Nectar vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_MF_PvsC.txt   # GO-term enrichment analysis output for molecular function for Pollen vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_MF_PvsN.txt   # GO-term enrichment analysis output for molecular function for Pollen vs Nectar
+│   └── GO-term_enrichment_analysis_output_CC_FvsNF.txt   # GO-term enrichment analysis output for cellular component for Follower vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_CC_NvsC.txt   # GO-term enrichment analysis output for cellular component for Nectar vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_CC_PvsC.txt   # GO-term enrichment analysis output for cellular component for Pollen vs Control (Non-followers)
+│   └── GO-term_enrichment_analysis_output_CC_PvsN.txt   # GO-term enrichment analysis output for cellular component for Pollen vs Nectar
 │   └── Experimental_design.txt   # Samples and treatments information
-
+│   └── RLOG_Transformed_values.txt
+│   └── TPM_values.txt   # Transcripts per million values table
+│   └── Experimental_design.txt   # Samples and treatments information
 └── README.md
 ```
 
