@@ -121,6 +121,8 @@ or open the script in RStudio (with the repository folder as working directory).
 | File | Description |
 |------|-------------|
 
+| `DEGs_<category>.txt` | Gene list for each intersection category |
+
 `GO-term_enrichment_analysis_output_BP_FvsNF.txt` | GO-term enrichment analysis output for biological process for Follower vs Control (Non-followers)
 `GO-term_enrichment_analysis_output_BP_NvsC.txt` | GO-term enrichment analysis output for biological process for Nectar vs Control (Non-followers)
 | `GO-term_enrichment_analysis_output_BP_PvsC.txt` | GO-term enrichment analysis output for biological process for Pollen vs Control (Non-followers) |
