@@ -78,8 +78,8 @@ Positive log2 fold changes indicate higher expression in the first group of each
 
 ## Requirements
 
-- R [version X]
-- R packages: `DESeq2` [version X], `apeglm` [version X], `pheatmap` [version X], `RColorBrewer` [version X]
+- R [version 2026.09.0]
+- R packages: `DESeq2` [1.42.1], `apeglm` [1.24], `pheatmap` [1.0.13], `RColorBrewer` [1-1.3]
 
 The exact versions used are written to `output/sessionInfo.txt`.
 
