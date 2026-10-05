@@ -143,7 +143,7 @@ or open the script in RStudio (with the repository folder as working directory).
 ## Data availability
 
 - Raw sequencing data: NCBI SRA: SRR34735861; SRR34735864; SRR34735863; SRR34735862; SRR34735860; SRR34735865
-- Count table used in this analysis: [included in `input/` 
+- Count table used in this analysis: included in `input/Raw reads count matrix.txt` 
 
 ## Citation
 
