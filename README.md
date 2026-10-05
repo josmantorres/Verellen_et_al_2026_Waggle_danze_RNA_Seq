@@ -45,9 +45,19 @@ Positive log2 fold changes indicate higher expression in the first group of each
 ```
 .
 ├── scripts/
-│   └── 01_DE_dance_followers.R
+│   └── Trimming and Mapping/Counting code   # Code used for trimming the raw reads with Trimmomatic and Mapping/Count with STAR
+│   └── 01_DE_dance_followers.R   # Code used for differential expression analysis with DESeq2
+│   └── 01_GO_enrichment_analysis_dance_followers.R   # Code used for GO enrichment analysis with ermineR
 ├── input/                     # input files (see below)
+│   └── Raw reads count matrix.txt
+│   └── Experimental_design.txt 
 ├── output/                    # created when the script is run
+│   └── Deseq2_statistics_output_Followers_vs_Control.txt   # DESeq2 analysis output from the Followers vs Non-followers (Control) comparison
+│   └── Deseq2_statistics_output_Nectar_vs_Control.txt   # DESeq2 analysis output from the Nectar vs Non-followers (Control) comparison
+│   └── Deseq2_statistics_output_Pollen_vs_Control.txt   # DESeq2 analysis output from the Pollen vs Non-followers (Control) comparison
+│   └── Deseq2_statistics_output_Pollen_vs_Nectar.txt   # DESeq2 analysis output from the Pollen vs Nectar comparison
+│   └── Experimental_design.txt   # Samples and treatments information
+
 └── README.md
 ```
 
