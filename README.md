@@ -134,8 +134,6 @@ or open the script in RStudio (with the repository folder as working directory).
 | `Experimental_design.txt` | Samples and treatments information |
 | `RLOG_Transformed_values.txt` | 
 | `TPM_values.txt` | Transcripts per million values table |
-| `Experimental_design.txt` | Samples and treatments information |
-
 
 `<comparison>` is one of `Followers_vs_Control`, `Nectar_vs_Control`, `Pollen_vs_Control` and `Pollen_vs_Nectar`.
 
