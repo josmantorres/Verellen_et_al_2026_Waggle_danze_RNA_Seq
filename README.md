@@ -116,7 +116,7 @@ Rscript scripts/01_DE_dance_followers.R
 
 or open the script in RStudio (with the repository folder as working directory). Paths, thresholds and the decimal separator are set in the "Parameters" section at the top of the script.
 
-## Outputs (written to `output/`)
+## Outputs
 
 | File | Description |
 |------|-------------|
