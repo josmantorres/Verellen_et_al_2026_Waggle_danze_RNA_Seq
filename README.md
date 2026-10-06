@@ -50,7 +50,7 @@ Positive log2 fold changes indicate higher expression in the first group of each
 │   └── 01_GO_enrichment_analysis_dance_followers.R   # Code used for GO enrichment analysis with ermineR
 ├── input/                     # input files (see below)
 │   └── Raw reads count matrix.txt
-│   └── Experimental_design.txt
+│   └── Experimental_design.txt   # Samples and treatments information
 │   └── Raw_reads_info.txt   # BioProject code  
 ├── output/                    # created when the script is run
 │   └── Deseq2_statistics_output_Followers_vs_Control.txt   # DESeq2 analysis output from the Followers vs Non-followers (Control) comparison
@@ -72,7 +72,6 @@ Positive log2 fold changes indicate higher expression in the first group of each
 │   └── Experimental_design.txt   # Samples and treatments information
 │   └── RLOG_Transformed_values.txt
 │   └── TPM_values.txt   # Transcripts per million values table
-│   └── Experimental_design.txt   # Samples and treatments information
 └── README.md
 ```
 
@@ -93,13 +92,13 @@ install.packages(c("pheatmap", "RColorBrewer"))
 
 Both files are tab-delimited with a header row and must be placed in `input/`.
 
-**`input/counts_matrix.txt`**: first column = gene IDs; remaining columns = raw (unnormalized) integer counts, one column per sample.
+**`input/Raw reads count matrix.txt`**: first column = gene IDs; remaining columns = raw (unnormalized) integer counts, one column per sample.
 
 | gene_id | sample1 | sample2 | ... |
 |---------|---------|---------|-----|
 | gene_A  | 120     | 98      | ... |
 
-**`input/sample_metadata.txt`**: one row per sample, with the same sample names and order as the count columns. Columns:
+**`input/Experimental_design.txt`**: one row per sample, with the same sample names and order as the count columns. Columns:
 
 - `sample`: sample name.
 - `treatment`: `Control`, `Nectar` or `Pollen`.
